@@ -95,7 +95,7 @@ export default function OurStory() {
                   <Image src={img4} alt = 'Photo of Mark' width={145} height={150} className="rounded-full border-solid border-4 border-white"></Image>
                 </div>
                 <div>
-                <h2 className="text-black text-2xl font-semibold">Isabella</h2>
+                <h2 className="text-black text-2xl font-semibold">Mark</h2>
                     <p className="mt-2 text-gray-500">Picnic Planner / Web Developer</p>
                     <p className="mt-4 text-gray-500">I am a recent graduate who took some time to partner up with Isabella in a spectacular idea to start a picnic business. I always had some passion for technology and the great outdoors. Spending the hot summers in parks and tinkering with computers during dusk. Being able to assist as a planner and also create this website to be publicly displayed for our clients brings great joy to what I do. While on this journey of finding growth in this business, I&apos;m also working towards a full-time job as a Web Developer.</p>
                 </div>
