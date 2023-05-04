@@ -1,0 +1,52 @@
+[
+    {
+        "idx":1,
+        "question":"HOW DOES IT WORK?",
+        "answer":"You choose a package, choose a time, date, and place, and we get in touch with you to confirm your booking within two days. On the day of the event, we deliver all necessary picnic supplies to your desired site, set up the picnic 30 minutes early, and leave once you arrive. When finished, we will be there to clean up so you may go about your day."
+    },
+    {
+        "idx":2,
+        "question":"HOW MUCH NOTICE DO YOU NEED TO BOOK A PICNIC?",
+        "answer":"All picnics should be booked at least 3-4 business days in advance, so we can work with you to plan your special picnic."
+    },
+    {
+        "idx":3,
+        "question":"WHAT HAPPENS IF THERE IS BAD WEATHER?",
+        "answer":"We understand that Florida's weather predictions are not always accurate, so we have a flexible policy on event date changes. Contact us 24 hours prior to your event and we can discuss all available options."
+    },
+    {
+        "idx":4,
+        "question":"WHAT IS YOUR CANCELLATION POLICY?",
+        "answer":"We unfortunately do not provide refunds. However, we have a flexible policy on event date changes if we are informed 24 hours prior to your scheduled event.."
+    },
+    {
+        "idx":5,
+        "question":"WHAT ARE SOME OF YOUR LOCATION PREFERENCES?",
+        "answer":"We cater to your needs, so we assemble your picnic anywhere you want. However, most of our customers truly enjoy the beach, parks and even their own backyard!"
+    },
+    {
+        "idx":6,
+        "question":"WHAT ADD ON'S WILL YOU PROVIDE?",
+        "answer":"Our most popular add on's are champagne, cheese board, and fringe umbrellas."
+    },
+    {
+        "idx":7,
+        "question":"CAN I LEAVE BEFORE MY SCHEDULED TIME?",
+        "answer":"Yes, but please text or call us fifteen minutes before your departure so we can be back at the location to clean and pick up. Please remember that during your picnic, you are responsible for all the items in the setup and the table cannot be left unattended. Thank you in advance!"
+    },
+    {
+        "idx":8,
+        "question":"DO YOUR PICNIC SETTINGS INCLUDE FOOD?",
+        "answer":"Our packages come without food. But you are welcome to bring any food and drinks to the picnic as you will be provided plates,flatware, cups and napkins! Just keep in mind that there are certain public areas that do not allow alcoholic beverages."
+    },
+    {
+        "idx":9,
+        "question":"WHAT HAPPENS IF MY PARTY BREAKS OR DAMAGES AN ITEM?",
+        "answer":"There is an additional damage fee for equipment that is left unattended, stolen, or broken."
+    },
+    {
+        "idx":10,
+        "question":"CAN WE USE YOUR PICNIC SETUPS FOR MORE THAN THE SET TIME SLOT?",
+        "answer":" Yes, we are happy to allow you to use the setting for a more extended period if availability permits. This must be arranged with us in advance or we can sort things out during your picnic experience. Please note that a fee may be applicable depending on the amount of additional time required."
+    }
+]
