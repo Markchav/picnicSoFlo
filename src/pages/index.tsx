@@ -6,8 +6,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from 'next/image';
 import img11 from '../../public/images/carousel/pinkPicnic.jpg'
 import img12 from '../../public/images/carousel/greenPicCar.jpg'
-
-
+import img13 from '../../public/images/carousel/bohoCarousel.jpg'
 
 export default function Home() {
   // const images = [
@@ -59,7 +58,7 @@ images={images}/> */}
         <div className='max-w-full h-auto'>
           <Carousel showArrows={true} showIndicators={true} showThumbs={false} infiniteLoop={true} dynamicHeight={false} showStatus={false}  autoPlay>
       <div>
-        <Image src='/../public/images/carousel/bohoCloseUp.JPG' alt='' width={600} height={400} className='sm:h-[530px]'/>
+        <Image src={img13} alt='' width={600} height={400} className='sm:h-[530px]'/>
       </div>
       <div>
         <Image src={img11} alt='' width={600} height={400} className='sm:h-[530px]'/>
