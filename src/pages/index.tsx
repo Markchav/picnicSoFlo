@@ -1,7 +1,8 @@
-import Image from 'next/image'
+
 import Head from 'next/head';
 import Link from 'next/link'
 import ImageCarousel from '@/components/ImageCarousel';
+
 
 export default function Home() {
   const images = [
