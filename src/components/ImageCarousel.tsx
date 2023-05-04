@@ -16,13 +16,13 @@ interface ImageCarouselProps {
 export default function ImageCarousel({images}: ImageCarouselProps) {
   return (
     <div className='max-w-full h-auto'>
-<Carousel showArrows={true} showIndicators={true} showThumbs={false} infiniteLoop={true} dynamicHeight={false} showStatus={false} autoPlay>
+{/* <Carousel showArrows={true} showIndicators={true} showThumbs={false} infiniteLoop={true} dynamicHeight={false} showStatus={false} autoPlay>
       {images.map((image, index)=> (
         <div key={index} className=''>
         <Image src={image.src} alt={image.alt} width={600} height={400} className='sm:h-[530px]'/>
       </div>     
       ))}
-    </Carousel>
+    </Carousel> */}
     </div>
     
   )

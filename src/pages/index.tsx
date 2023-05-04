@@ -1,33 +1,34 @@
-
 import Head from 'next/head';
 import Link from 'next/link'
 import ImageCarousel from '@/components/ImageCarousel';
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Image from 'next/image';
+import img11 from '../../public/images/carousel/pinkPicnic.jpg'
+import img12 from '../../public/images/carousel/greenPicCar.jpg'
+
 
 
 export default function Home() {
-  const images = [
-    {
-      src: '/../public/images/carousel/bohoCloseUp.JPG',
-      alt: 'Image 1',
-    },
-    {
-      src: '/../public/images/carousel/pinkPicnic.jpg',
-      alt: 'Image 2',
-    },
-    {
-      src: '/../public/images/carousel/greenPicCar.jpg',
-      alt: 'Image 3',
-    },
-  ];
+  // const images = [
+  //   {
+  //     src: '/../public/images/carousel/bohoCloseUp.JPG',
+  //     alt: 'Image 1',
+  //   },
+  //   {
+  //     src: '/../public/images/carousel/pinkPicnic.jpg',
+  //     alt: 'Image 2',
+  //   },
+  //   {
+  //     src: '/../public/images/carousel/greenPicCar.jpg',
+  //     alt: 'Image 3',
+  //   },
+  // ];
   return (
     <div className='bg-almost-white'>
     <Head><title>Picnic SoFlo</title>
 </Head>
-    
-    
-
-
-    <div className='flex items-center justify-center h-[620px] mb-12 bg-fixed bg-center bg-cover custom-img '>
+    <div className='flex items-center justify-center h-[620px] mb-12 bg-fixed bg-center bg-cover custom-img'>
     <div className='p-5 text-white z-[2] mt-[-10rem]'>
     <h2 className='text-5xl font-bold'>Picnic SoFlo</h2>
       <p className='py-5 text-xl'> Indulge in the luxury you deserve</p>
@@ -53,8 +54,21 @@ export default function Home() {
       </div>
 
       <div className=' flex items-center justify-center mb-10 '>
-      <ImageCarousel
-images={images}/>
+      {/* <ImageCarousel
+images={images}/> */}
+        <div className='max-w-full h-auto'>
+          <Carousel showArrows={true} showIndicators={true} showThumbs={false} infiniteLoop={true} dynamicHeight={false} showStatus={false}  autoPlay>
+      <div>
+        <Image src='/../public/images/carousel/bohoCloseUp.JPG' alt='' width={600} height={400} className='sm:h-[530px]'/>
+      </div>
+      <div>
+        <Image src={img11} alt='' width={600} height={400} className='sm:h-[530px]'/>
+      </div>
+      <div>
+        <Image src={img12} alt='' width={600} height={400} className='sm:h-[530px]'/>
+      </div>
+    </Carousel>
+        </div>
       </div>
 
     </div>
