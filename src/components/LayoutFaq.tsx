@@ -20,7 +20,7 @@ interface LayoutProps {
 export default function Layout({handleClick, isSomeActive, data, turn, setTurn}:LayoutProps) {
   return (
     <div className='items-center flex flex-col lg:w-7/12 lg:mt-7 w-full my-5 px-4'>
-        <span className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-black sm:text-4xl'>
+        <span className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-black sm:text-4xl text-center'>
             Frequently Asked Questions
         </span>
         <div className='flex items-center justify-between w-full mb-6 lg:justify-end '>

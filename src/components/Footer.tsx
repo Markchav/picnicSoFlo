@@ -10,7 +10,7 @@ return (
     <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:gap-[300px] ">
         <div className="mb-8 sm:mb-0">
-        <Link href='/book-now' className="hover:underline text-lg font-medium mb-2">Book With Us</Link>
+        <Link href='/book-now' className="underline  text-lg font-medium mb-2">Book With Us</Link>
         <p className="">Plan the perfect picnic with us! We provide everything you need to make your picnic memorable</p>
         </div>
         <div className="mb-8 sm:mb-0">
