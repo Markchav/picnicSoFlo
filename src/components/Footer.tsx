@@ -16,7 +16,7 @@ return (
         <div className="mb-8 sm:mb-0">
         <h3 className="text-lg font-medium mb-2">Email Us:</h3>
         <ul>
-            <li className="mb-2"><a href="mailto:picnicsoflo07@gmail.com">picnicsoflo07@gmail.com</a></li>
+            <li className="mb-2"><a href="mailto:picnicsoflo7@gmail.com" className='underline'>picnicsoflo7@gmail.com</a></li>
         </ul>
         </div>
         <div className="mb-8 sm:mb-0">

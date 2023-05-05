@@ -22,7 +22,7 @@ export default function Contact() {
       <div className="mb-8 sm:mb-0 text-gray-500">
         <h3 className=" font-medium mb-2">Email Us:</h3>
         <ul>
-            <li className="mb-2"><a href="mailto:picnicsoflo07@gmail.com">picnicsoflo07@gmail.com</a></li>
+            <li className="mb-2"><a href="mailto:picnicsoflo7@gmail.com" className='underline'>picnicsoflo7@gmail.com</a></li>
         </ul>
         </div>
       {/* <p className="text-gray-500 mb-2">Servings : Broward and Miami-Dade County</p> */}
