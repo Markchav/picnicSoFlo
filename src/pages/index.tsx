@@ -26,7 +26,7 @@ export default function Home() {
 
     <div className='grid sm:grid-cols-2 gap-16 p-4 bg-almost-white'>
       <div>
-        <div className='border dark:bg-peach dark:text-black'><h1 className=' text-center pb-5 mt-2 text-3xl leading-8 font-extrabold tracking-tight  sm:text-4x'>How it Works </h1></div>
+        <div className='border bg-peach dark:text-black'><h1 className=' text-center pb-5 mt-2 text-3xl leading-8 font-extrabold tracking-tight  sm:text-4x'>How it Works </h1></div>
       <div className=' w-5/12 flex flex-col max-w-screen-xl mx-auto '>
         <ul className='mt-4 max-w-2xl '>
           <li className='mb-2 text-black'><h1 className='font-bold text-2xl'>Step 1-Booking</h1>
