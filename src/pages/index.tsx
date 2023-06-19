@@ -9,25 +9,12 @@ import img12 from '../../public/images/carousel/greenPicCar.jpg'
 import img13 from '../../public/images/carousel/bohoCarousel.jpg'
 
 export default function Home() {
-  // const images = [
-  //   {
-  //     src: '/../public/images/carousel/bohoCloseUp.JPG',
-  //     alt: 'Image 1',
-  //   },
-  //   {
-  //     src: '/../public/images/carousel/pinkPicnic.jpg',
-  //     alt: 'Image 2',
-  //   },
-  //   {
-  //     src: '/../public/images/carousel/greenPicCar.jpg',
-  //     alt: 'Image 3',
-  //   },
-  // ];
+
   return (
     <div className='bg-almost-white'>
     <Head><title>Picnic SoFlo</title>
 </Head>
-    <div className='flex items-center justify-center h-[620px] mb-12 bg-fixed bg-center bg-cover custom-img'>
+    <div className='flex items-center justify-center h-[620px] mb-12 sm:bg-fixed bg-center sm:bg-cover sm:custom-img custom-img bg-[length:1000px_650px]'>
     <div className='p-5 text-white z-[2] mt-[-10rem]'>
     <h2 className='text-5xl font-bold'>Picnic SoFlo</h2>
       <p className='py-5 text-xl'> Indulge in the luxury you deserve</p>

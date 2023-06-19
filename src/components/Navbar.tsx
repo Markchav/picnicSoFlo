@@ -19,7 +19,7 @@ export default function Navbar() {
     }
 
   return (
-        <nav className='fixed w-full left-0 top-0 z-10 shadow dark:bg-peach'>
+        <nav className='fixed w-full left-0 top-0 z-10 shadow bg-peach'>
             <div className=' flex items-center justify-between m-auto p-4 text-gray-600 capitalize dark:text-gray-300'>
             <Link href='/'>
                 <div className='flex items-center justify-center mt-2'>
